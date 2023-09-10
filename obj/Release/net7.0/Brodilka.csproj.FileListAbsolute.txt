@@ -1,0 +1,14 @@
+E:\Evgeniy\Programming\Projects\C#\Brodilka\bin\Release\net7.0\Brodilka.exe
+E:\Evgeniy\Programming\Projects\C#\Brodilka\bin\Release\net7.0\Brodilka.deps.json
+E:\Evgeniy\Programming\Projects\C#\Brodilka\bin\Release\net7.0\Brodilka.runtimeconfig.json
+E:\Evgeniy\Programming\Projects\C#\Brodilka\bin\Release\net7.0\Brodilka.dll
+E:\Evgeniy\Programming\Projects\C#\Brodilka\bin\Release\net7.0\Brodilka.pdb
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.GeneratedMSBuildEditorConfig.editorconfig
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.AssemblyInfoInputs.cache
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.AssemblyInfo.cs
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.csproj.CoreCompileInputs.cache
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.dll
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\refint\Brodilka.dll
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.pdb
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\Brodilka.genruntimeconfig.cache
+E:\Evgeniy\Programming\Projects\C#\Brodilka\obj\Release\net7.0\ref\Brodilka.dll
