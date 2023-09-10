@@ -2,6 +2,7 @@ namespace Game;
 
 public class Player
 {
+    public int speed;
     public double X;
     public double Y;
     public double A;
