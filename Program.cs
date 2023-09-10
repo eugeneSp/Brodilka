@@ -70,12 +70,12 @@ class Program
         {
             player.speed = 15;
             DateTime dateTimeTo = DateTime.Now;
-            
+
             double elapsedTime = (dateTimeTo - dateTimeFrom).TotalSeconds;
 
             dateTimeFrom = DateTime.Now;
 
-            if(Console.KeyAvailable)
+            if (Console.KeyAvailable)
             {
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
 
@@ -100,13 +100,11 @@ class Program
             for (int x = 0; x < SCREEN_WIDTH; x++)
             {
                 double rayAngle = player.A + player.FOV / 2 - x * player.FOV / SCREEN_WIDTH;
+                double distanceToWall = 0;
+                bool hitWall = false;
 
                 double rayX = Math.Sin(rayAngle);
                 double rayY = Math.Cos(rayAngle);
-
-                double distanceToWall = 0;
-
-                bool hitWall = false;
 
                 while (!hitWall && distanceToWall < DEPTH)
                 {
@@ -123,10 +121,9 @@ class Program
                     else
                     {
                         char testCell = _map[testY * MAP_WIDTH + testX];
+
                         if (testCell == '#')
-                        {
                             hitWall = true;
-                        }
                     }
                 }
 
@@ -150,20 +147,12 @@ class Program
                 for (int y = 0; y < SCREEN_HEIGHT; y++)
                 {
                     if (y <= ceilling)
-                    {
                         _screen[y * SCREEN_WIDTH + x] = ' ';
-                    }
                     else if (y > ceilling && y <= floor)
-                    {
                         _screen[y * SCREEN_WIDTH + x] = shader;
-                    }
                     else
-                    {
                         _screen[y * SCREEN_WIDTH + x] = '.';
-                    }
                 }
-
-
             }
 
             Console.SetCursorPosition(0, 0);
